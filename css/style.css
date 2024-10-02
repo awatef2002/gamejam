@@ -1,0 +1,49 @@
+body {
+  font-family: "Tajawal", sans-serif;
+  background: #f7f7f7; /* لون الخلفية الأساسية */
+  color: #333333; /* لون النصوص */
+}
+
+header {
+  background: #222222; /* لون الشريط العلوي */
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff; /* لون روابط الشريط العلوي */
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+  background: #444444; /* لون تفاعل */
+  color: #f7f7f7;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  background: #333333;
+  color: #f7f7f7;
+  text-align: center;
+  padding: 1rem;
+}
+
+.social-icons a {
+  margin: 0 1rem;
+  color: #ffffff; /* لون الأيقونات */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #888888; /* لون تفاعل الأيقونات */
+}
+
